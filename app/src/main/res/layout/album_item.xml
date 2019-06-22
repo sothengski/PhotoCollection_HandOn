@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <!--<ImageView-->
+            <!--android:id="@+id/galleryImage"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="150dp"-->
+            <!--android:scaleType="centerCrop"-->
+            <!--android:background="@mipmap/ic_image_default"-->
+            <!--/>-->
+        <TextView
+            android:id="@+id/albumtitle"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:textSize="15sp"
+            android:text="Defualt Album"
+            android:gravity="center"
+            android:background="@drawable/photo_border"
+            android:layout_margin="5dp"
+
+            />
+        <!--android:src="@drawable/blank"-->
+
+    </LinearLayout>
